@@ -592,6 +592,7 @@ class CreditCardInput extends Component<Props, State> {
             })}
           </InputWrapper>
           <InputWrapper
+            inputStyled={inputStyle}
             data-max="999999"
             isActive={enableZipInput}
             isZipActive={showZip}
